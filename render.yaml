@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bgmi-ddos-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 8941070109:AAEHz4IuI2Cc1sDoIffV2vJ6bwPLctl21wE
